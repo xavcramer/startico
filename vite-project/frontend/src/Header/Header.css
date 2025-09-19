@@ -10,7 +10,7 @@ header{
 .explore>div{
     width: 50%;
     color: #162E3C;
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     font-family: 'Fraunces';
     align-items: center;
@@ -31,22 +31,35 @@ nav{
     height: fit-content;
     display: flex;
     align-items: center;
-    font-family: 'Fraunces';
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 15px;
     margin: auto;
+    font-family: 'Space Grotesk';
 }
 .first__list{
     display: flex;
     gap: 0 10px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 17px;
 }
 .second__list{
     display: flex;
     align-items: center;
-    gap: 0 10px;
+    gap: 0 20px;
 }
 .second__list>li>a>button{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px #162E3C solid;
+    background: none;
+    color: #162E3C;
+    font-family: 'Space Grotesk';
+}
+#root > header > nav > div > ul.second__list > li:nth-child(6) > a > button{
     width: 150px;
-    height: 50px;
+    color: white;
+    background-color: #162E3C;
 }
 
