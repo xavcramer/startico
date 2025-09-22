@@ -1,0 +1,104 @@
+.speed__section{
+    width: 100%;
+    height: fit-content;
+    margin-top: 45vh;
+    margin-bottom: 200px;
+}
+.wavesimg{
+    position: absolute;
+    right: 0;
+}
+.speedsec__general__wrapper{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    padding: 0 10px 0 11vh;
+}
+.speedsec__first__wrapper{
+    width: 50%;
+    height: fit-content;
+}
+.speedsec__second__wrapper{
+    width: 60%;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+}
+.sales__wrapper{
+    width: 420px;
+    height: 120px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    background-color: #DDF0A7;
+    padding: 0px 20px 0px 20px;
+    position: absolute;
+    left: 27%;
+    top: 207%;
+}
+.procent{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Fraunces';
+    color: #162E3C;
+}
+.increased{
+    font-family: 'Space Grotesk';
+    color: #162E3C;
+}
+#root > section > div > div > div.speedsec__first__wrapper > div > ul.sales__second__list > li > img{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+.speed__block{
+    width: 70px;
+    height: 30px;
+    font-size: 13px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    color: #162E3C;
+    background-color: #DDF0A7;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.speedsec__second__wrapper>h2{
+    font-family: 'Fraunces';
+    color: #162E3C;
+    font-size: 40px;
+}
+.speedsec__second__wrapper>p{
+    font-size: 18px;
+    width: 596px;
+    font-family: 'Space Grotesk';
+    color: #49616E;
+}
+.speedsec__btns__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+.speedsec__btns__wrapper>button{
+    width: 139px;
+    height: 52px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 10px;
+    font-family: 'Space Grotesk';
+    background: none;
+    border: none;
+}
+.speedsec__btns__wrapper>button:first-child{
+    border-radius: 30px;
+    border: 2px solid #162E3C;
+}

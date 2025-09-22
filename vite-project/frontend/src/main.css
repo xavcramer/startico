@@ -55,3 +55,6 @@ h6 {
   width: 15px;
   height: 15px;
 }
+button{
+  cursor: pointer;
+}

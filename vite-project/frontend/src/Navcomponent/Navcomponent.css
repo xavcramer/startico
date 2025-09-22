@@ -1,0 +1,43 @@
+nav{
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+   padding: 15px 0 15px 0;
+    background-color: white;
+}
+.nav__wrapper{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: auto;
+    font-family: 'Space Grotesk';
+}
+.first__list{
+    display: flex;
+    gap: 0 10px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 17px;
+}
+.second__list{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+.second__list>li>a>button{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px #162E3C solid;
+    background: none;
+    color: #162E3C;
+    font-family: 'Space Grotesk';
+}
+#root > nav > div > ul.second__list > li:nth-child(6) > a > button{
+    width: 150px;
+    color: white;
+    background-color: #162E3C;
+}

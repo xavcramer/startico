@@ -1,0 +1,23 @@
+.explore__general {
+    width: 100%;
+    height: fit-content;
+    background-color: #DDF0A7;
+}
+
+.explore {
+    display: flex;
+    align-items: center;
+}
+
+.explore>div {
+    width: 100%;
+    color: #162E3C;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Fraunces';
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 46%;
+}
