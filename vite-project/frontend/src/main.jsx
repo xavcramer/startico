@@ -6,6 +6,7 @@ import Navcomponent from './Navcomponent/Navcomponent.jsx'
 import Speedsec from './Speedsec/Speedsec.jsx'
 import Build from './Build/Build.jsx'
 import Efficient from './Efficient/Efficient.jsx'
+import Reviews from './Reviews/Reviews.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,5 +16,6 @@ createRoot(document.getElementById('root')).render(
     <Speedsec/>
     <Build/>
     <Efficient/>
+    <Reviews/>
   </StrictMode>,
 )
