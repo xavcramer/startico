@@ -1,0 +1,75 @@
+.section__form{
+    width: 100%;
+    height: 800px;
+    background-color: #162E3C;
+}
+.section__form2{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+.form__block{
+    width: 1280px;
+    height: 484px;
+    border-radius: 48px;
+    background-color: #DDF0A7;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.formimg{
+    margin-left: 80%;
+}
+.forminsidewrapper{
+    width: 768px;
+    height: 292px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+.forminsidewrapper>h6{
+    font-family: 'Fraunces';
+    font-size: 40px;
+    color: #162E3C;
+}
+.forminsidewrapper>p{
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    color: #162E3C;
+}
+.input__wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+}
+.input__wrapper>input{
+    width: 368px;
+    height: 52px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+    border: none;
+}
+.input__wrapper>input::placeholder{
+    color: #162E3C;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    font-weight: 700;
+}
+.input__wrapper>button{
+    width: 128px;
+    height: 52px;
+    border-radius: 30px;
+    color: white;
+    background-color: #162E3C;
+    border: none;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+}
+.forminsidewrapper>p.bottomtextform{
+    color: #162E3C;
+    font-size: 11px;
+    font-family: 'Space Grotesk';
+}

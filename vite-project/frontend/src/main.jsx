@@ -9,6 +9,8 @@ import Efficient from './Efficient/Efficient.jsx'
 import Reviews from './Reviews/Reviews.jsx'
 import Plans from './Plans/Plans.jsx'
 import Blog from './Blog/Blog.jsx'
+import Form from './Form/Form.jsx'
+import Footer from './Footer/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,5 +23,7 @@ createRoot(document.getElementById('root')).render(
     <Reviews/>
     <Plans/>
     <Blog/>
+    <Form/>
+    <Footer/>
   </StrictMode>,
 )

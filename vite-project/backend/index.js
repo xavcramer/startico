@@ -71,6 +71,38 @@ app.get('/api/blog', async (req, res) => {
     }
 });
 
+app.post('/api/subscribe', async (req, res) => {
+    const { email } = req.body;
+
+    if (!email || !email.includes('@')) {
+        return res.status(400).json({ error: 'Invalid email address' });
+    }
+
+    try {
+        const { rows } = await pool.query(
+            `INSERT INTO subscribers (email) 
+             VALUES ($1) 
+             ON CONFLICT (email) DO NOTHING 
+             RETURNING id, email, created_at`,
+            [email.trim().toLowerCase()]
+        );
+
+        if (rows.length > 0) {
+            res.status(201).json({
+                message: 'Subscription successful',
+                subscriber: rows[0]
+            });
+        } else {
+            res.status(200).json({
+                message: 'Email already subscribed'
+            });
+        }
+    } catch (err) {
+        console.error('Error subscribing:', err);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
+
 app.listen(PORT, () => {
     console.log(`Server starting on port ${PORT}`);
 });
