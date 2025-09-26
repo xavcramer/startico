@@ -1,0 +1,95 @@
+.section__blog{
+    width: 100%;
+    height: 1000px;
+}
+.blog__wrapper{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.blog__card{
+    width: 403px;
+    height: 664px;
+    border: 1px solid #E5E7EB;
+    border-radius: 32px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+.blog__tags{
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+    font-family: 'Space Grotesk';
+    font-size: 13px;
+    color: #162E3C;
+    align-items: center;
+}
+.blog__card>p{
+    width: 343px;
+    height: 100px;
+    text-align: center;
+}
+#root > section.section__blog > div > div.blog__wrapper > div:nth-child(1) > p:nth-child(3){
+    font-family: 'Fraunces';
+    color: #162E3C;
+    font-size: 24px;
+}
+#root > section.section__blog > div > div.blog__wrapper > div:nth-child(2) > p:nth-child(3){
+    font-family: 'Fraunces';
+    color: #162E3C;
+    font-size: 24px;
+}
+#root > section.section__blog > div > div.blog__wrapper > div:nth-child(3) > p:nth-child(3){
+    font-family: 'Fraunces';
+    color: #162E3C;
+    font-size: 24px;
+}
+
+#root > section.section__blog > div > div.blog__wrapper > div:nth-child(1) > p:nth-child(4){
+    color: #49616E;
+    font-size: 16px;
+    font-family: 'Space Grotesk';
+}
+#root > section.section__blog > div > div.blog__wrapper > div:nth-child(2) > p:nth-child(4){
+    color: #49616E;
+    font-size: 16px;
+    font-family: 'Space Grotesk';
+}
+#root > section.section__blog > div > div.blog__wrapper > div:nth-child(3) > p:nth-child(4){
+    color: #49616E;
+    font-size: 16px;
+    font-family: 'Space Grotesk';
+}
+.first__tag{
+    width: 94px;
+    height: 39px;
+    border: 1px solid #E5E7EB;
+    border-radius: 32px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.blog__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 0 10px;
+    color: #162E3C;
+    font-family: 'Space Grotesk';
+}
+.blogarrow{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #162E3C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

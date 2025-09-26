@@ -7,6 +7,8 @@ import Speedsec from './Speedsec/Speedsec.jsx'
 import Build from './Build/Build.jsx'
 import Efficient from './Efficient/Efficient.jsx'
 import Reviews from './Reviews/Reviews.jsx'
+import Plans from './Plans/Plans.jsx'
+import Blog from './Blog/Blog.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,5 +19,7 @@ createRoot(document.getElementById('root')).render(
     <Build/>
     <Efficient/>
     <Reviews/>
+    <Plans/>
+    <Blog/>
   </StrictMode>,
 )
